@@ -1,0 +1,93 @@
+body {
+    margin: 10rem;
+    font-family: 'Karla', sans-serif;
+    border: solid violet 2px;
+    width: 500px;
+    height: auto;
+    padding: 5rem;
+    left: 3rem;
+}
+
+#different {
+    color:black;
+    font-size: 20px;
+}
+
+p {
+    color: blue;
+}
+
+h4 {
+    background: black;
+    color:white;
+}
+h4:hover{
+    background-color: violet;
+    opacity: 80%;
+}
+
+#artist {
+    width: 300px;
+    height: auto;
+   
+}
+
+#pictures { 
+    left: 1rem;
+}
+
+#super {
+    background: yellow;
+    border: solid blue 5px;
+    width: 810px;
+    height: auto;
+    padding: 5rem;
+}
+#dog {
+    width: 800px;
+    height: auto;
+}
+
+#cutie{
+    width:300px;
+    height:auto;
+}
+
+
+
+#process {
+    font-family: 'Righteous', cursive;
+    background-color: yellow;
+    color: violet;
+    border: solid black 3px;
+    top: 2rem;
+    width:400px;
+    height: auto;
+    padding: 2rem;
+    position: absolute;
+    left: 1000px;
+    right: 0px;
+    margin-block-start: 8em;
+}
+
+#name {
+    text-decoration: underline;
+    background: black;
+    color: white;
+
+}
+#name:hover{
+    background-color: violet;
+    opacity: 80%;
+}
+
+#capital {
+    font-size: 30px;
+    color: violet;
+}
+
+#love {
+    font-size: 30px;
+    color: blue;
+
+}

@@ -1,0 +1,44 @@
+body {
+    background-color: lime;
+
+    font-family: 'Noto Sans', sans-serif;
+}
+
+p{
+    width: 50vw;
+    font-size: 20 px;
+
+}
+
+
+#page{
+    background-color: pink;
+    width: 50vw;
+    color: white;
+    
+
+    font-family: 'Piazzolla', serif;
+}
+
+#big{
+color: blueviolet;
+font-family: 'Sansita Swashed', cursive;
+text-decoration:underline;
+
+}
+
+
+#page:hover{
+    background-color: yellow;
+    opacity: 50%;
+}
+
+#one{
+font-size: 40px;
+}
+
+#one:hover{
+    text-decoration: bold;
+    text-decoration: underline;
+    color:white;
+}
