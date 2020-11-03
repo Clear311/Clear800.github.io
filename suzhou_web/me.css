@@ -22,6 +22,7 @@ body{
 .left-top-block {
     height: 600px;
     width: 400px;
+    margin-left:50px;
     /* background-color: lightgrey; */
     display: flex;
     flex-wrap: wrap;
@@ -108,18 +109,45 @@ body{
     margin-top: -70px;
 }
 
+/* https://medium.com/@codingdudecom/css-triangle-81eb02dffeee */
+.zongzitang{
+    --side-size: 50px;
+    border-left: var(--side-size) solid transparent;
+    border-right: var(--side-size) solid transparent;
+    border-bottom: calc(2 * var(--side-size) * 0.866) solid rgb(149, 247, 149);
+    border-top: var(--side-size) solid transparent;
+    border-radius: 10px;
+    margin-left: 15px;
+    display: inline-block;
+
+}
+
 .bottom-left-block {
     height: 300px;
-    width: 600px;
-    background-color: blue;
+    width: 650px;
+    background-color: rgb(240, 151, 49);
+    border: 10px dotted white;
     margin-top: -200px;
+    margin-left:30px;
+    border-radius: 200px;
+}
+
+#wadisu{
+    display:inline-block;
+    text-align:center;
+    color: white;
+    margin: 50px auto;
+    margin-left:30px;
+    font-family: 'Karla', sans-serif;
+    font-size: 180px;
 }
 
 .center-block {
-    height: 600px;
-    width: 300px;
+    height: 520px;
+    width: 200px;
     background-color: gray;
     border-radius: 6px;
+    margin-left: 50px;
     padding: 20px;
     transition: background-color .32s ease;
     z-index:2;
@@ -144,7 +172,7 @@ body{
     height: 300px;
     width: 300px;
     background-color: indigo;
-    margin-left: 500px;
+    margin-left: 400px;
     margin-top: -200px;
     z-index: 0;
 }
@@ -202,10 +230,10 @@ body{
 }
 
 #me{
-    width: 200%; 
-    height: 200%; 
+    width: 220%; 
+    height: 220%; 
     object-fit: contain; 
     display: flex;
     margin-left: -150px;
-    margin-top: -200px;
+    margin-top: -250px;
 }
