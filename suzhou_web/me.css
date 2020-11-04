@@ -48,6 +48,11 @@ body{
     margin-top: 50px;
 }
 
+.green-dumpling:hover {
+    cursor: pointer;
+    background: url("qingtuan.jpg") no-repeat 20%;
+  }
+
 #gd{
     display:inline-block;
     text-align:center;
@@ -75,6 +80,11 @@ body{
     display: flex;
 }
 
+.peach-cracker:hover {
+    cursor: pointer;
+    background: url("taosu.jpg") no-repeat 10%;
+  }
+
 .pc{
     display:inline-block;
     text-align:center;
@@ -96,6 +106,12 @@ body{
     background-color: rgb(247, 214, 170);
     border-radius: 50%;
     display: flex;
+}
+
+.pork-mooncake:hover{
+        cursor: pointer;
+        background: url("mooncake.jpg") no-repeat 40%;
+      
 }
 
 .pm{
@@ -130,6 +146,11 @@ body{
     
 }
 
+.zongzitang:hover {
+    cursor: pointer;
+    background: url("zongzitang.jpg") no-repeat 35%;
+  }
+
 
 .bottom-left-block {
     height: 300px;
@@ -150,6 +171,11 @@ body{
     font-family: 'Karla', sans-serif;
     font-size: 180px;
 }
+
+#wadisu:hover {
+    cursor: pointer;
+    background: url("wadisu.jpg") no-repeat 25%;
+  }
 
 .center-block {
     height: 520px;
@@ -240,6 +266,11 @@ body{
     margin-top: 50px;
     /* margin-left: 50px; */
 }
+.lotus-root:hover{
+        cursor: pointer;
+        background: url("tangou.jpg") no-repeat 35%;
+      
+}
 
 #roots{
     margin-top: -175px;
@@ -281,6 +312,22 @@ body{
     margin-top: -300px;
 }
 
+.pictures:hover {
+    transform: translate(290px, -200px);
+    -webkit-animation: size 2s ease-in-out infinite alternate; 
+   }
+   @-webkit-keyframes size {
+    0% {
+        transform: scale(1.5);
+    }
+    50% {
+     transform: scale(0.5);
+    }
+    100% {
+      transform: scale(3);
+    }
+  }
+
 .bottom-right {
     height: 400px;
     width: 350px;
@@ -309,6 +356,12 @@ body{
     margin-left:-30px;
     z-index:6;
     /* position:absolute; */
+}
+
+.rice-cake:hover{
+    cursor: pointer;
+    background: url("tangniangao.jpg") no-repeat 60% 10%;
+  
 }
 #flower{
     width: 100%; 
