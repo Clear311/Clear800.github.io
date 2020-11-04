@@ -14,6 +14,64 @@ body{
     height: 30px;
 }
 
+#first-image{
+    position:absolute;
+    margin-left: 100px;
+    border-radius: 20px;
+    opacity: 30%;
+}
+
+#first-image:hover{
+    opacity: 100%;
+}
+
+#second-image{
+    position:absolute;
+    margin-left: 500px;
+    margin-top: 300px;
+    width:20%;
+    border-radius: 20px;
+    opacity: 30%;
+}
+#second-image:hover{
+    opacity: 100%;
+}
+
+#third-image{
+    position:absolute;
+    margin-left: 1000px;
+    width:30%;
+    margin-top: 500px;
+    border-radius: 20px;
+    opacity: 30%;
+}
+#third-image:hover{
+    opacity: 100%;
+}
+
+#fourth-image{
+    position:absolute;
+    margin-left: 1000px;
+    width:30%;
+    border-radius: 20px;
+    opacity: 30%;
+}
+#fourth-image:hover{
+    opacity: 100%;
+}
+
+#fifth-image{
+    position:absolute;
+    margin-left: 300px;
+    margin-top: 700px;
+    width:20%;
+    border-radius: 20px;
+    opacity: 30%;
+}
+#fifth-image:hover{
+    opacity: 100%;
+}
+
 .bounding_box_2{
     height:100vh;
     max-height: 100vh;
@@ -31,7 +89,7 @@ body{
 }
 
 .left-block {
-    height: 870px;
+    height: 800px;
     width: 400px;
     margin-left:50px;
     background-color: white;
@@ -45,7 +103,8 @@ body{
     padding: 3em;
 } 
 .left-block p {
-    width: 60%;
+    width: 80%;
+    line-height: 20px;
 }
 
 h1{
@@ -56,9 +115,9 @@ h1{
 
 h5{
     font-family: 'Karla', sans-serif;
-    font-size: 25px;
+    font-size: 23px;
     color:  #af4c61; 
-    margin: 0.5em;
+    margin: 0.8em;
 }
 
 #yunpian{
@@ -89,24 +148,32 @@ p{
   }
 
 .center-block {
-    height: 870px;
-    width: 430px;
+    height: 800px;
+    width: 330px;
     border-left: 4px solid rgb(255, 234, 237);
     /* margin-left:30px; */
     background-color: white;
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-block;
+    /* flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start; 
     align-content: flex-start;
-    flex-flow: row wrap;
+    flex-flow: column wrap; */
     overflow: scroll;
+    padding: 3em;
 
+}
+.center-block p {
+    width: 100%;
+    /* line-height: 20px; */
+}
+.center-block h5 {
+    font-size: 17px;
 }
 
 .right-block {
-    height: 870px;
-    width: 430px;
+    height: 800px;
+    width: 370px;
     border-left: 4px solid rgb(255, 234, 237);
     /* margin-left:30px; */
     background-color: white;
@@ -115,7 +182,7 @@ p{
     justify-content: flex-start;
     align-items: flex-start; 
     align-content: flex-start;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     overflow: scroll;
-
+    padding:3em;
 }
