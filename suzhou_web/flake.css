@@ -2,13 +2,19 @@ body{
     background-color: rgb(255, 234, 237);
     padding: 0 0 0 0;
 }
+.row {
+    color: red;
+    opacity: 50%;
+    width: 100%;
+    height: 30px;
+}
 
 .bounding_box_2{
     height:100vh;
     max-height: 100vh;
     width:100vw;
     /* position:relative; */
-    background-color: yellow;
+    /* background-color: yellow; */
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     display: flex;
@@ -20,40 +26,84 @@ body{
 }
 
 .left-block {
-    height: 900px;
-    width: 400px;
+    height: 870px;
+    width: 530px;
     margin-left:50px;
-    background-color: lightgrey;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start; 
     align-content: flex-start;
     flex-flow: row wrap;
+    /* flex-direction: row-reverse; */
+}
+h1{
+    font-family: 'Karla', sans-serif;
+    font-size: 55px;
+    color:rgb(109, 108, 108);
 }
 
+h5{
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+    color:  #af4c61; 
+}
+
+#yunpian{
+    display: flex;
+    float:left;
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 80%;
+    border-radius: 25px;
+}
+p{
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    color: rgb(63, 0, 14); 
+}
+.button {
+    background-color: #af4c61; 
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    display:flex;
+    font-size: 16px;
+    border-radius:15px;
+  }
+
 .center-block {
-    height: 900px;
-    width: 400px;
-    margin-left:50px;
-    background-color: lightgrey;
+    height: 870px;
+    width: 430px;
+    border-left: 4px solid rgb(255, 234, 237);
+    /* margin-left:30px; */
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start; 
     align-content: flex-start;
     flex-flow: row wrap;
+    overflow: scroll;
+
 }
 
 .right-block {
-    height: 900px;
-    width: 400px;
-    margin-left:50px;
-    background-color: lightgrey;
+    height: 870px;
+    width: 430px;
+    border-left: 4px solid rgb(255, 234, 237);
+    /* margin-left:30px; */
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start; 
     align-content: flex-start;
     flex-flow: row wrap;
+    overflow: scroll;
+
 }
