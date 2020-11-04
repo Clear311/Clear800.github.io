@@ -186,9 +186,100 @@ p{
     flex-flow: column wrap; */
     overflow: scroll;
     padding:3em;
+    background:url("cloud.jpg") no-repeat 80% 50%;
+    /* opacity: 50%; */
 }
 
 .right-block p {
     width: 100%;
     /* line-height: 20px; */
+    font-family: 'Karla', sans-serif;
+    line-height:23px;
+}
+
+.right-block h1{
+    font-family: 'Karla', sans-serif;
+    font-size: 35px;
+    color:white;
+    background: black;
+    display:inline-block;
+}
+
+.right-block h1:hover{
+    background:rgb(161, 20, 44);
+}
+
+h2{
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+    color:rgb(146, 146, 146);
+    line-height: 32px;
+    text-decoration: underline;
+}
+
+#heart{
+    background:rgb(81, 124, 240);
+    display:inline;
+    color:pink;
+}
+
+h3{
+    font-family: 'Karla', sans-serif;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+h3:hover{
+    background: rgb(197, 106, 121);
+}
+
+h7{
+    font-family: 'Lobster Two', cursive;
+    color: rgb(95, 129, 223);
+    font-size: 17px;
+    text-align: center;
+}
+
+#p1{
+    font-family: 'Lobster Two', cursive;
+    color: rgb(212, 84, 137);
+    font-size: 14px;
+    line-height:16px;
+}
+
+#p2{
+    font-family: 'Lobster Two', cursive;
+    color:rgb(212, 212, 212);
+    background:rgb(212, 84, 137);
+    font-size: 14px;
+    line-height:16px;
+    display: inline;
+}
+
+#p3{
+    font-family: 'Lobster Two', cursive;
+    color:rgb(212, 212, 212);
+    background:rgb(84, 86, 212);
+    font-size: 14px;
+    line-height:16px;
+    display: inline;
+}
+
+#p4{
+    font-family: 'Lobster Two', cursive;
+    color:rgb(212, 212, 212);
+    background:rgb(57, 145, 45);
+    font-size: 14px;
+    line-height:16px;
+    display: inline;
+}
+
+#p5{
+    font-family: 'Lobster Two', cursive;
+    color:rgb(212, 212, 212);
+    background:rgb(145, 48, 45);
+    font-size: 17px;
+    line-height:20px;
+    display: inline;
 }
