@@ -178,12 +178,17 @@ p{
     border-left: 4px solid rgb(255, 234, 237);
     /* margin-left:30px; */
     background-color: white;
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-block;
+    /* flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start; 
     align-content: flex-start;
-    flex-flow: column wrap;
+    flex-flow: column wrap; */
     overflow: scroll;
     padding:3em;
+}
+
+.right-block p {
+    width: 100%;
+    /* line-height: 20px; */
 }
