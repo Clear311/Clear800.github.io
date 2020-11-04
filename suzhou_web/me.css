@@ -314,7 +314,7 @@ body{
 
 .pictures:hover {
     transform: translate(290px, -200px);
-    -webkit-animation: size 2s ease-in-out infinite alternate; 
+    -webkit-animation: size 2s ease-in-out alternate; 
    }
    @-webkit-keyframes size {
     0% {
