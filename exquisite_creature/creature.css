@@ -74,7 +74,43 @@ h4:hover{
     flex-wrap: wrap;
     align-content: flex-start;
     flex-flow: row wrap;
+    perspective: 1000px;
   }
+
+/* .block_red:hover{
+    transform: rotateY(180deg);
+} */
+
+/* .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .block_red:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  } */
 
   .button_red{
     width: 100px;
@@ -150,8 +186,10 @@ p{
     padding: 10px 16px;
     border-radius: 20px;
     text-decoration: none;
-    margin: 4px 2px;
     cursor: pointer;
+    display:block;
+    margin: 0 auto;
+    justify-content: center;
   }
 
  
