@@ -77,9 +77,52 @@ h4:hover{
     perspective: 1000px;
   }
 
-/* .block_red:hover{
+#eyes{
+    font-family: 'IBM Plex Mono',monospace;   
+    font-style: italic; 
+    font-size:15px;
+    /* text-decoration:underline; */
+    background-color: cornsilk;
+    color: #dd7386;
+}
+
+#ear{
+    font-family: 'IBM Plex Mono',monospace;   
+    font-style: italic; 
+    font-size:15px;
+    /* text-decoration:underline; */
+    background-color: cornsilk;
+    color: #3580cf;
+}
+
+#nose{
+    font-family: 'IBM Plex Mono',monospace;   
+    font-style: italic; 
+    font-size:15px;
+    /* text-decoration:underline; */
+    background-color: cornsilk;
+    color: #3580cf;
+}
+
+#mouth{
+    font-family: 'IBM Plex Mono',monospace;   
+    font-style: italic; 
+    font-size:15px;
+    /* text-decoration:underline; */
+    background-color: cornsilk;
+    color: #dd7386;
+}
+
+.block_red:hover{
     transform: rotateY(180deg);
-} */
+    position: absolute;
+    /* width: 100%;
+    height: 100%; */
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden; 
+    /* backface-visibility: hidden; */
+}
 
 /* .flip-card-inner {
     position: relative;
