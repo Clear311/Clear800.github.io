@@ -72,5 +72,33 @@ function animateDiv(){
 };
 
 $( function() {
-    $( ".block_red" ).draggable();
+    $( "#draggable" ).draggable();
   } );
+
+$( function() {
+    $( "#draggable2" ).draggable();
+  } );
+
+$( function() {
+    $( "#draggable3" ).draggable();
+  } );
+
+$( function() {
+    $( "#draggable4" ).draggable();
+  } );
+
+$( function() {
+    $( "#draggable" ).resizable();
+  } );
+
+$( function() {
+    $( "#draggable2" ).resizable();
+  } );
+
+// $( function() {
+//     $( "#draggable3" ).resizable();
+//   } );
+
+//   $( function() {
+//     $( "#draggable4" ).resizable();
+//   } );

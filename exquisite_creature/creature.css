@@ -65,8 +65,8 @@ h4:hover{
 
   .block_red {
     background-color: #dd7386;
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 330px;
     border-radius: 10px;
     position: fixed;
     padding: 20px;
@@ -124,6 +124,11 @@ h4:hover{
     border-width: 2px; */
     background-color: rgb(255, 255, 230); 
     /* margin-left: 100px; */
+    display:inline-block;
+    margin: 10px auto;
+    margin-left:20px;
+    justify-content: center;
+    cursor: pointer;
   }
 
 
@@ -157,7 +162,7 @@ p{
 
   .block_orange {
     background-color: #db7617;
-    width: 500px;
+    width: 550px;
     height: 290px;
     border-radius: 10px;
     position: fixed;
@@ -188,8 +193,23 @@ p{
     text-decoration: none;
     cursor: pointer;
     display:block;
-    margin: 0 auto;
+    margin: 10px auto;
     justify-content: center;
+  }
+
+  .button_align input[type=submit]{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;    
+    background-color: rgb(255, 255, 230); 
+    border: none;
+    color:  rgba(41, 78, 4, 0.658);
+    padding: 10px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    display:inline-block; 
+    margin: 20px 10px 10px 40px;
+    justify-content: center; 
   }
 
  
