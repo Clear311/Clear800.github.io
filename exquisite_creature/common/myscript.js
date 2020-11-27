@@ -95,10 +95,10 @@ $( function() {
     $( "#draggable2" ).resizable();
   } );
 
-// $( function() {
-//     $( "#draggable3" ).resizable();
-//   } );
+$( function() {
+    $( "#draggable3" ).resizable();
+  } );
 
-//   $( function() {
-//     $( "#draggable4" ).resizable();
-//   } );
+  $( function() {
+    $( "#draggable4" ).resizable();
+  } );

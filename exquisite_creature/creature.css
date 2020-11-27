@@ -119,8 +119,8 @@ h4:hover{
     /* width: 100%;
     height: 100%; */
     transition: transform 0.8s;
-    transform-style: preserve-3d;
-    -webkit-backface-visibility: hidden; 
+    /* transform-style: preserve-3d; */
+    /* -webkit-backface-visibility: hidden;  */
     /* backface-visibility: hidden; */
 }
 
@@ -223,6 +223,9 @@ p{
     margin: 0 auto;
   }
 
+  .ui-resizable {
+    position: absolute;
+}
 
 
   input[type=submit]{
