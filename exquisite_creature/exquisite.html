@@ -21,21 +21,22 @@
                 </div>
                 <button id="button">Shuffle</button>
                 <div class="block_red" id="draggable">
-                        <section class="container">
+                        <section class="container" >
                         <div class="card">
-                            <p>Choose an adjective below that best describes what <span id="eyes">your eyes</span> look like at the moment.</p>
                             <div class="button_align">
+                                <p>Choose an adjective below that best describes what <span id="eyes">your eyes</span> look like at the moment.</p>
                                 <button class="button_red">Curious</button>
                                 <button class="button_red">Sad</button>
                                 <button class="button_red">Deadpan</button>
                                 <button class="button_red">Delighted</button>
                                 <button class="button_red">Excited</button>
                                 <button class="button_red">Fearful</button>
-                                <input type="submit" value="Surprise me">
+                                <!-- <button class="choice-0">Surprise me</button> -->
                                 <!-- <input type="submit" value="Take a peek"> -->
+                                <input type="submit" value="Surprise me">
                                 <button class="choice" onclick="flip()">Take a peek</button>
                             </div>
-                            <div class="button_align_back" onclick="flip()">
+                            <div class="button_align_back" id="resizable" onclick="flip()">
                                 <img src="https://bit.ly/fcc-relaxing-cat" width="500" height="500">
                             </div>
                         </div>  
@@ -43,31 +44,62 @@
                 </div>
 
                 <div class="block_blue" id="draggable2">
-                    <p>Think of a word that jumps to your mind when you think of <span id=“ear”>ears</span>. How many letters does that word consist?</p>
-                    <form action="/action_page.php">
-                        <label for="answer-1"></label>
-                        <input type="text" id="answer-1" name="answer-1"><br><br>
-                        <input type="submit" value="Surprise me">
-                        <input type="submit" value="Take a peek">
-                      </form>
+                    <section class="container2">
+                        <div class="card-2">
+                            <div class="blue_front">
+                                <p>Think of a word that jumps to your mind when you think of <span id=“ear”>ears</span>. How many letters does that word consist?</p>
+                                <form action="/action_page.php">
+                                    <label for="answer-1"></label>
+                                    <input type="text" id="answer-1" name="answer-1"><br><br>
+                                    <input type="submit" value="Surprise me">
+                                </form>
+                                    <button class="choice2"  onclick="flip2()">Take a peek</button>
+                            </div>
+                            <div class="blue_back" id="resizable2" onclick="flip2()">
+                                <img src="https://bit.ly/fcc-relaxing-cat" width="500" height="300">
+                            </div>
+                        </div>
+                    </section>  
                 </div>
+
                 <div class="block_yellow" id="draggable3">
-                    <p>Think of an adjective that best describes your <span id="nose">favourite smell</span>. What’s the first letter of the word?</p>
+                    <section class="container3">
+                        <div class="card-3">
+                            <div class="yellow_front">
+                                <p>Think of an adjective that best describes your <span id="nose">favourite smell</span>. What’s the first letter of the word?<p>
                     <form action="/action_page.php">
                         <label for="answer-2"></label>
                         <input type="text" id="answer-2" name="answer-2"><br><br>
                         <input type="submit" value="Surprise me">
-                        <input type="submit" value="Take a peek">
-                      </form>
+                    </form>
+                        <button class="choice2"  onclick="flip3()">Take a peek</button>
+                            </div>
+                            <div class="yellow_back" id="resizable3" onclick="flip3()">
+                                <img src="https://bit.ly/fcc-relaxing-cat" width="300" height="450">
+                            </div>
+                        </div>
+                    </section>
                 </div>
+
+            
                 <div class="block_orange" id="draggable4">
-                    <p>What silly word do you want to <span id="mouth">yell out loud</span> in public but you are too afraid to do so?</p>
-                    <form action="/action_page.php">
-                        <label for="answer-3"></label>
-                        <input type="text" id="answer-3" name="answer-3"><br><br>
-                        <input type="submit" value="Surprise me">
-                        <input type="submit" value="Take a peek">
-                      </form>
+                    <section class="container4">
+                        <div class="card-4">
+                            <div class="orange_front">
+                                <p>What silly word do you want to <span id="mouth">yell out loud</span> in public but you are too afraid to do so?</p>
+                                <form action="/action_page.php">
+                                    <label for="answer-3"></label>
+                                    <input type="text" id="answer-3" name="answer-3"><br><br>
+                                    <input type="submit" value="Surprise me">
+                                  </form>
+                                  <button class="choice2"  onclick="flip4()">Take a peek</button>
+                            </div>
+                            <div class="orange_back" id="resizable4" onclick="flip4()">
+                                <img src="https://bit.ly/fcc-relaxing-cat" width="550" height="290">
+                            </div>
+                        </div>
+
+                    </section>
                 </div>
                 
             </div>

@@ -88,21 +88,33 @@ $( function() {
   } );
 
 $( function() {
-    $( "#draggable" ).resizable();
+    $( "#resizable" ).resizable();
   } );
 
 $( function() {
-    $( "#draggable2" ).resizable();
+    $( "#resizable2" ).resizable();
   } );
 
 $( function() {
-    $( "#draggable3" ).resizable();
+    $( "#resizable3" ).resizable();
   } );
 
   $( function() {
-    $( "#draggable4" ).resizable();
+    $( "#resizable4" ).resizable();
   } );
 
   function flip() {
     $('.card').toggleClass('flipped');
+}
+
+function flip2() {
+    $('.card-2').toggleClass('flipped');
+}
+
+function flip3() {
+    $('.card-3').toggleClass('flipped');
+}
+
+function flip4() {
+    $('.card-4').toggleClass('flipped');
 }

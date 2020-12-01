@@ -64,7 +64,9 @@ h4:hover{
   }
 
   .block_red {
-    background-color: #dd7386;
+    /* background-color: #dd7386; */
+    background-color: none;
+    margin-left: 20px;
     width: 400px;
     height: 330px;
     border-radius: 10px;
@@ -76,9 +78,9 @@ h4:hover{
     flex-flow: row wrap;
   }
 
-  .container {
+.container {
     width: 400px;
-    height: 330px;
+    height: 400px;
     position: relative;
     -webkit-perspective: 800px;
     -moz-perspective: 800px;
@@ -86,8 +88,8 @@ h4:hover{
     perspective: 800px;
 }
 .card {
-    width: 100%;
-    height: 100%;
+    width: 400px;
+    height: 330px;
     position: absolute;
     -webkit-transition: -webkit-transform 0.75s;
     -moz-transition: -moz-transform 0.75s;
@@ -100,19 +102,46 @@ h4:hover{
 
 }
 .card div {
-    /* display: block;
+    display: block;
     height: 100%;
-    width: 100%; */
+    width: 100%;
     /* text-align: center; */
     /* line-height: 130px; */
-    /* position: absolute; */
+    position: absolute;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
 }
 
+.button_red{
+    width: 100px;
+    height: 50px;
+    font-family: 'IBM Plex Mono', monospace;    
+    font-size:15px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    /* border-style: solid;
+    border-width: 2px; */
+    background-color: rgb(255, 255, 230); 
+    /* margin-left: 100px; */
+    display:inline-block;
+    margin: 10px auto;
+    margin-left:30px;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+
 p{
+    text-align: left;
+    font-family: 'IBM Plex Mono', monospace;    
+    font-size:15px;
+    margin: 20px;
+    margin-left:30px;
+    line-height: 26px;
+    color: rgb(255, 255, 230); 
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -o-backface-visibility: hidden;
@@ -120,6 +149,8 @@ p{
 }
 
 .card .button_align {
+  height: 350px;
+  width: 430px;
   background: #dd7386;
   border-radius: 10px;
 }
@@ -147,13 +178,123 @@ p{
     color: #dd7386;
 }
 
-#ear{
+.button_red:focus{
+    background-color: rgba(255, 166, 0, 0.856);
+}
+
+.choice{
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 15px;    
+  background-color: rgb(255, 255, 230); 
+  border: none;
+  color:  rgba(41, 78, 4, 0.658);
+  padding: 10px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  display:block;
+  margin: -49px;
+  margin-left: 250px;
+  justify-content: center;
+}
+
+
+.block_blue {
+    background-color: none;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    position: fixed;
+    padding: 10px;
+}
+  
+  /* #ear{
     font-family: 'IBM Plex Mono',monospace;   
     font-style: italic; 
     font-size:15px;
-    /* text-decoration:underline; */
     background-color: cornsilk;
     color: #3580cf;
+} */
+  .choice2{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;    
+    background-color: rgb(255, 255, 230); 
+    border: none;
+    color:  rgba(41, 78, 4, 0.658);
+    padding: 10px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    display:block;
+    margin: 0 auto;
+    /* margin-left: 250px; */
+    justify-content: center;
+  }
+
+.container2 {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    perspective: 800px;
+}
+.card-2 {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    -webkit-transition: -webkit-transform 0.75s;
+    -moz-transition: -moz-transform 0.75s;
+    -o-transition: -o-transform 0.75s;
+    transition: transform 0.75s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+}
+.card-2 div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    /* text-align: center; */
+    /* line-height: 130px; */
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card-2 .blue_front {
+    height: 300px;
+    width: 500px;
+    background: #3580cf;
+    border-radius: 10px;
+  }
+.card-2 .blue_back {
+      border-radius: 10px;
+      overflow: hidden;
+      -webkit-transform: rotateY( 180deg );
+      -moz-transform: rotateY( 180deg );
+      -o-transform: rotateY( 180deg );
+      transform: rotateY( 180deg );
+  }
+.card-2.flipped {
+      -webkit-transform: rotateY( 180deg );
+      -moz-transform: rotateY( 180deg );
+      -o-transform: rotateY( 180deg );
+      transform: rotateY( 180deg );
+}
+
+.block_yellow {
+    background-color: none;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    position: fixed;
+    padding: 10px;
 }
 
 #nose{
@@ -165,6 +306,73 @@ p{
     color: #3580cf;
 }
 
+.container3 {
+    width: 300px;
+    height:450px;
+    position: relative;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    perspective: 800px;
+}
+.card-3 {
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    -webkit-transition: -webkit-transform 0.75s;
+    -moz-transition: -moz-transform 0.75s;
+    -o-transition: -o-transform 0.75s;
+    transition: transform 0.75s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+}
+.card-3 div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    /* text-align: center; */
+    /* line-height: 130px; */
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card-3 .yellow_front {
+    height: 450px;
+    width: 300px;
+    background: #dac265;
+    border-radius: 10px;
+  }
+.card-3 .yellow_back {
+      border-radius: 10px;
+      overflow: hidden;
+      -webkit-transform: rotateY( 180deg );
+      -moz-transform: rotateY( 180deg );
+      -o-transform: rotateY( 180deg );
+      transform: rotateY( 180deg );
+  }
+.card-3.flipped {
+      -webkit-transform: rotateY( 180deg );
+      -moz-transform: rotateY( 180deg );
+      -o-transform: rotateY( 180deg );
+      transform: rotateY( 180deg );
+}
+
+
+.block_orange {
+    background-color: none;
+    width: 550px;
+    height: 290px;
+    border-radius: 10px;
+    position: fixed;
+    padding: 20px;
+}
+
 #mouth{
     font-family: 'IBM Plex Mono',monospace;   
     font-style: italic; 
@@ -173,64 +381,64 @@ p{
     background-color: cornsilk;
     color: #dd7386;
 }
-
-
-  .button_red{
-    width: 100px;
-    height: 50px;
-    font-family: 'IBM Plex Mono', monospace;    
-    font-size:15px;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 20px;
-    /* border-style: solid;
-    border-width: 2px; */
-    background-color: rgb(255, 255, 230); 
-    /* margin-left: 100px; */
-    display:inline-block;
-    margin: 10px auto;
-    margin-left:20px;
-    justify-content: center;
-    cursor: pointer;
-  }
-
-
-p{
-    text-align: left;
-    font-family: 'IBM Plex Mono', monospace;    
-    font-size:15px;
-    margin: 20px;
-    line-height: 26px;
-    color: rgb(255, 255, 230); 
+.container4 {
+    width: 550px;
+    height:290px;
+    position: relative;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    perspective: 800px;
 }
-
-  .block_blue {
-    background-color: #3580cf;
-    width: 500px;
-    height: 300px;
-    border-radius: 10px;
-    position: fixed;
-    padding: 10px;
-  }
- 
-
-  .block_yellow {
-    background-color: #dac265;
-    width: 300px;
-    height: 450px;
-    border-radius: 10px;
-    position: fixed;
-    padding: 10px;
-  }
-
-  .block_orange {
-    background-color: #db7617;
+.card-4 {
     width: 550px;
     height: 290px;
+    position: absolute;
+    -webkit-transition: -webkit-transform 0.75s;
+    -moz-transition: -moz-transform 0.75s;
+    -o-transition: -o-transform 0.75s;
+    transition: transform 0.75s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+}
+.card-4 div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    /* text-align: center; */
+    /* line-height: 130px; */
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card-4 .orange_front {
+    height: 290px;
+    width: 550px;
+    background: #db7617;
     border-radius: 10px;
-    position: fixed;
-    padding: 20px;
   }
+.card-4 .orange_back {
+      border-radius: 10px;
+      overflow: hidden;
+      -webkit-transform: rotateY( 180deg );
+      -moz-transform: rotateY( 180deg );
+      -o-transform: rotateY( 180deg );
+      transform: rotateY( 180deg );
+  }
+.card-4.flipped {
+      -webkit-transform: rotateY( 180deg );
+      -moz-transform: rotateY( 180deg );
+      -o-transform: rotateY( 180deg );
+      transform: rotateY( 180deg );
+}
+
+
   input[type=text] {
     border: 1px solid white;
     border-radius: 4px;
@@ -263,21 +471,10 @@ p{
     justify-content: center;
   }
 
-  .choice{
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 15px;    
-    background-color: rgb(255, 255, 230); 
-    border: none;
-    color:  rgba(41, 78, 4, 0.658);
-    padding: 10px 16px;
-    border-radius: 20px;
-    text-decoration: none;
-    cursor: pointer;
-    display:block;
-    margin: -49px;
-    margin-left: 200px;
-    justify-content: center;
+  input[type=submit]:focus{
+      background-color:purple;
   }
+
 
   .button_align input[type=submit]{
     font-family: 'IBM Plex Mono', monospace;
