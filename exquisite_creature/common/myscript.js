@@ -118,3 +118,98 @@ function flip3() {
 function flip4() {
     $('.card-4').toggleClass('flipped');
 }
+
+function flip3() {
+    var userinput = document.getElementById("answer-2").value;
+    if (userinput == "a"){
+      document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/camelnose.png'
+    }
+    else if(userinput == "b"){
+      document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/tigernose.png'
+    }
+    else if(userinput == "c"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/mousenose.png'
+      }
+    else if(userinput == "d"){
+      document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/monkeynose.png'
+    }
+    else if(userinput == "e"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/mnose.png'
+      }
+    else if(userinput == "f"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/sealnose.png'
+    }
+    else if(userinput == "g"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/pignose.jpg'
+    }
+    else if(userinput == "h"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/pugnose.png'
+    }
+    else if(userinput == "i"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/oxnose.png'
+    }
+    else if(userinput == "j"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/littlenose.png'
+    }
+    else if(userinput == "k"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/horsenose.jpg'
+    }
+    else if(userinput == "l"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/gorillanose.png'
+    }
+    else if(userinput == "m"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/elephantnose.jpg'
+    }
+    else if(userinput == "n"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/dognose.jpg'
+    }
+    else if(userinput == "o"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/eaglenose.png'
+    }
+    else if(userinput == "p"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/cownose.png'
+    }
+    else if(userinput == "q"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/catnose.jpg'
+    }
+    else if(userinput == "r"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/humannose.png'
+    }
+    else if(userinput == "s"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/flowernose.png'
+    }
+    else if(userinput == "t"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/birdnose.png'
+    }
+    else if(userinput == "u"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/oxnose.png'
+    }
+    else if(userinput == "v"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/monsternose.png'
+    }
+    else if(userinput == "w"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/bearnose.png'
+    }
+    else if(userinput == "x"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/bugnose.png'
+    }
+    else if(userinput == "y"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/allinose.png'
+    }
+    else if(userinput == "z"){
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/unkownnose.png'
+    }
+    $('.card-3').toggleClass('flipped');
+}
+
+
+function flip4() {
+    var userinput = document.getElementById("answer-3").value;
+    if (userinput == "a"){
+      document.getElementById('resizable4').getElementsByTagName('img')[0].src='beautiful-island.jpg'
+    }
+    else if(userinput == "b"){
+      document.getElementById('resizable4').getElementsByTagName('img')[0].src='pagetwo_graph_two_2.png'
+    }
+    $('.card-4').toggleClass('flipped');
+}

@@ -193,8 +193,8 @@ p{
   text-decoration: none;
   cursor: pointer;
   display:block;
-  margin: -49px;
-  margin-left: 250px;
+  margin: 0 auto;
+  margin-top: 20px;
   justify-content: center;
 }
 
@@ -227,6 +227,7 @@ p{
     cursor: pointer;
     display:block;
     margin: 0 auto;
+    margin-top: 30px;
     /* margin-left: 250px; */
     justify-content: center;
   }
