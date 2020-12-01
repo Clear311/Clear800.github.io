@@ -21,22 +21,27 @@
                 </div>
                 <button id="button">Shuffle</button>
                 <div class="block_red" id="draggable">
-                    <!-- <div class="flip-card-inner">
-                        <div class="flip-card-front"></div>
-                        <div class="flip-card-back"></div> -->
-                    <!-- </div> -->
-                    <p>Choose an adjective below that best describes what <span id="eyes">your eyes</span> look like at the moment.</p>
-                    <div class="button_align">
-                        <button class="button_red">Curious</button>
-                        <button class="button_red">Sad</button>
-                        <button class="button_red">Deadpan</button>
-                        <button class="button_red">Delighted</button>
-                        <button class="button_red">Excited</button>
-                        <button class="button_red">Fearful</button>
-                        <input type="submit" value="Surprise me">
-                        <input type="submit" value="Take a peek">
-                    </div>
+                        <section class="container">
+                        <div class="card">
+                            <p>Choose an adjective below that best describes what <span id="eyes">your eyes</span> look like at the moment.</p>
+                            <div class="button_align">
+                                <button class="button_red">Curious</button>
+                                <button class="button_red">Sad</button>
+                                <button class="button_red">Deadpan</button>
+                                <button class="button_red">Delighted</button>
+                                <button class="button_red">Excited</button>
+                                <button class="button_red">Fearful</button>
+                                <input type="submit" value="Surprise me">
+                                <!-- <input type="submit" value="Take a peek"> -->
+                                <button class="choice" onclick="flip()">Take a peek</button>
+                            </div>
+                            <div class="button_align_back" onclick="flip()">
+                                <img src="https://bit.ly/fcc-relaxing-cat" width="500" height="500">
+                            </div>
+                        </div>  
+                        </section>
                 </div>
+
                 <div class="block_blue" id="draggable2">
                     <p>Think of a word that jumps to your mind when you think of <span id=“ear”>ears</span>. How many letters does that word consist?</p>
                     <form action="/action_page.php">

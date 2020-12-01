@@ -102,3 +102,7 @@ $( function() {
   $( function() {
     $( "#draggable4" ).resizable();
   } );
+
+  function flip() {
+    $('.card').toggleClass('flipped');
+}
