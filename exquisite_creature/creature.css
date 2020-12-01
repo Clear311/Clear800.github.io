@@ -13,12 +13,12 @@ h3{
     color: rgb(255, 255, 230); 
 }
 
-h4{
+#description{
     font-family: 'IBM Plex Mono', monospace;    
     font-size:15px;
     color: rgb(191, 204, 73); 
 }
-h4:hover{
+#description:hover{
     color: rgb(255, 255, 230); 
     cursor:pointer;
 }

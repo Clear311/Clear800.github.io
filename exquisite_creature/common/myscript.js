@@ -344,3 +344,7 @@ setInterval(function() {
     $('body').css('background', '#f4c2c2')
   }
 }, 250);
+
+$("#description").click(function(){
+    alert("Answer the questions in the numeric order to create your unique creature. Screenshot and show it off to your friends!");
+  });
