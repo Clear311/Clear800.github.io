@@ -25,12 +25,12 @@
                         <div class="card">
                             <div class="button_align">
                                 <p>Choose an adjective below that best describes what <span id="eyes">your eyes</span> look like at the moment.</p>
-                                <button class="button_red">Curious</button>
-                                <button class="button_red">Sad</button>
-                                <button class="button_red">Deadpan</button>
-                                <button class="button_red">Delighted</button>
-                                <button class="button_red">Excited</button>
-                                <button class="button_red">Fearful</button>
+                                <button class="button_red" onclick="flip_adj('Curious')">Curious</button>
+                                <button class="button_red" onclick="flip_adj('Tired')">Tired</button>
+                                <button class="button_red" onclick="flip_adj('Deadpan')">Deadpan</button>
+                                <button class="button_red" onclick="flip_adj('Delighted')">Delighted</button>
+                                <button class="button_red" onclick="flip_adj('Excited')">Excited</button>
+                                <button class="button_red" onclick="flip_adj('Fearful')">Fearful</button>
                                 <!-- <button class="choice-0">Surprise me</button> -->
                                 <!-- <input type="submit" value="Take a peek"> -->
                                 <!-- <input type="submit" value="Surprise me"> -->
@@ -47,7 +47,7 @@
                     <section class="container2">
                         <div class="card-2">
                             <div class="blue_front">
-                                <p>Think of a word that jumps to your mind when you think of <span id=“ear”>ears</span>. How many letters does that word consist?</p>
+                                <p>Think of a word that jumps to your mind when you think of <span id=“ear”>ears</span>. How many letters does that word consist? Input a Roman number.</p>
                                 <form action="/action_page.php">
                                     <label for="answer-1"></label>
                                     <input type="text" id="answer-1" name="answer-1"><br><br>
@@ -86,7 +86,7 @@
                     <section class="container4">
                         <div class="card-4">
                             <div class="orange_front">
-                                <p>What silly word do you want to <span id="mouth">yell out loud</span> in public but you are too afraid to do so? How many letters does that word consist?</p>
+                                <p>What silly word do you want to <span id="mouth">yell out loud</span> in public but you are too afraid to do so? How many letters does that word consist? Input a Roman number.</p>
                                 <form action="/action_page.php">
                                     <label for="answer-3"></label>
                                     <input type="text" id="answer-3" name="answer-3"><br><br>
