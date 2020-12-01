@@ -63,7 +63,7 @@ h4:hover{
     /* margin-left: 100px; */
   }
 
-  .block_red {
+.block_red {
     /* background-color: #dd7386; */
     background-color: none;
     margin-left: 20px;
@@ -76,7 +76,8 @@ h4:hover{
     flex-wrap: wrap;
     align-content: flex-start;
     flex-flow: row wrap;
-  }
+    z-index: 4;
+}
 
 .container {
     width: 470px;
@@ -203,6 +204,7 @@ p{
     border-radius: 10px;
     position: fixed;
     padding: 10px;
+    z-index: 8;
 }
   
   /* #ear{
@@ -213,6 +215,40 @@ p{
     color: #3580cf;
 } */
   .choice2{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;    
+    background-color: rgb(255, 255, 230); 
+    border: none;
+    color:  rgba(41, 78, 4, 0.658);
+    padding: 10px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    display:block;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* margin-left: 250px; */
+    justify-content: center;
+  }
+
+  .choice3{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15px;    
+    background-color: rgb(255, 255, 230); 
+    border: none;
+    color:  rgba(41, 78, 4, 0.658);
+    padding: 10px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    display:block;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* margin-left: 250px; */
+    justify-content: center;
+  }
+
+  .choice4{
     font-family: 'IBM Plex Mono', monospace;
     font-size: 15px;    
     background-color: rgb(255, 255, 230); 

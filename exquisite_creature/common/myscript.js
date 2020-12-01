@@ -103,7 +103,7 @@ $( function() {
 //     $( "#resizable4" ).resizable();
 //   } );
 
-  function flip() {
+function flip() {
     $('.card').toggleClass('flipped');
 }
 
@@ -319,3 +319,28 @@ function flip4() {
     }
     $('.card-4').toggleClass('flipped');
 }
+
+
+var hasPressed = false;
+var hasPressed2 = false;
+var hasPressed3 = false;
+var hasPressed4 = false;
+
+$('.choice').click(function (){
+    hasPressed = true ;
+});
+$('.choice2').click(function (){
+    hasPressed2 = true ;
+});
+$('.choice3').click(function (){
+    hasPressed3 = true ;
+});
+$('.choice4').click(function (){
+    hasPressed4 = true ;
+});
+
+setInterval(function() {
+  if (hasPressed === true && hasPressed2 === true && hasPressed3 == true && hasPressed4 == true) {
+    $('body').css('background', '#f4c2c2')
+  }
+}, 250);
