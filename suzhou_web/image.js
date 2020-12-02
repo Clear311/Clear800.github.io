@@ -10,3 +10,4 @@ function showImage() {
 // function showImage() {
 //     document.getElementById('second-image').style.visibility='visible';
 // }
+

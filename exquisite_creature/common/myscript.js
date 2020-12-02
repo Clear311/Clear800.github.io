@@ -207,7 +207,7 @@ function flip3() {
         document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/sealnose.png'
     }
     else if(userinput == "g"){
-        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/pignose.jpg'
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/pignose.png'
     }
     else if(userinput == "h"){
         document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/pugnose.png'
@@ -219,16 +219,16 @@ function flip3() {
         document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/littlenose.png'
     }
     else if(userinput == "k"){
-        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/horsenose.jpg'
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/horsenose.png'
     }
     else if(userinput == "l"){
         document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/gorillanose.png'
     }
     else if(userinput == "m"){
-        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/elephantnose.jpg'
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/elephantnose.png'
     }
     else if(userinput == "n"){
-        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/dognose.jpg'
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/dognose.png'
     }
     else if(userinput == "o"){
         document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/eaglenose.png'
@@ -237,7 +237,7 @@ function flip3() {
         document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/cownose.png'
     }
     else if(userinput == "q"){
-        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/catnose.jpg'
+        document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/catnose.png'
     }
     else if(userinput == "r"){
         document.getElementById('resizable3').getElementsByTagName('img')[0].src='nose/humannose.png'

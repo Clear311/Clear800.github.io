@@ -19,12 +19,12 @@ body{
     position:absolute;
     margin-left: 100px;
     border-radius: 20px;
-    opacity: 30%;
-}
-
-#first-image:hover{
     opacity: 100%;
 }
+
+/* #first-image:hover{
+    opacity: 100%;
+} */
 
 #second-image{
     position:absolute;
@@ -32,11 +32,11 @@ body{
     margin-top: 300px;
     width:20%;
     border-radius: 20px;
-    opacity: 30%;
-}
-#second-image:hover{
     opacity: 100%;
 }
+/* #second-image:hover{
+    opacity: 100%;
+} */
 
 #third-image{
     position:absolute;
@@ -44,22 +44,22 @@ body{
     width:30%;
     margin-top: 500px;
     border-radius: 20px;
-    opacity: 30%;
-}
-#third-image:hover{
     opacity: 100%;
 }
+/* #third-image:hover{
+    opacity: 100%;
+} */
 
 #fourth-image{
     position:absolute;
     margin-left: 1000px;
     width:30%;
     border-radius: 20px;
-    opacity: 30%;
-}
-#fourth-image:hover{
     opacity: 100%;
 }
+/* #fourth-image:hover{
+    opacity: 100%;
+} */
 
 #fifth-image{
     position:absolute;
@@ -67,10 +67,14 @@ body{
     margin-top: 700px;
     width:20%;
     border-radius: 20px;
-    opacity: 30%;
-}
-#fifth-image:hover{
     opacity: 100%;
+}
+/* #fifth-image:hover{
+    opacity: 100%;
+} */
+
+.button{
+    cursor: pointer;
 }
 
 .bounding_box_2{
@@ -186,7 +190,7 @@ p{
     flex-flow: column wrap; */
     overflow: scroll;
     padding:3em;
-    background:url("cloud.jpg") no-repeat 80% 50%;
+    background:url("pictures/cloud.jpg") no-repeat 80% 50%;
     /* opacity: 50%; */
 }
 

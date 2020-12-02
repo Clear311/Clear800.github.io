@@ -10,6 +10,19 @@ body{
     height: 20px;
 }
 
+#about{
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    color:rgb(78, 2, 2);
+    font-style:italic;
+    margin-left: 1150px;
+    text-decoration: underline;
+}
+
+#about:hover {
+    cursor: pointer;
+}
+
 .bounding_box_1{
     height:100vh;
     max-height: 100vh;
@@ -50,7 +63,7 @@ body{
 
 .green-dumpling:hover {
     cursor: pointer;
-    background: url("qingtuan.jpg") no-repeat 20%;
+    background: url("pictures/qingtuan.jpg") no-repeat 20%;
   }
 
 #gd{
@@ -82,7 +95,7 @@ body{
 
 .peach-cracker:hover {
     cursor: pointer;
-    background: url("taosu.jpg") no-repeat 10%;
+    background: url("pictures/taosu.jpg") no-repeat 10%;
   }
 
 .pc{
@@ -110,7 +123,7 @@ body{
 
 .pork-mooncake:hover{
         cursor: pointer;
-        background: url("mooncake.jpg") no-repeat 40%;
+        background: url("pictures/mooncake.jpg") no-repeat 40%;
       
 }
 
@@ -148,7 +161,7 @@ body{
 
 .zongzitang:hover {
     cursor: pointer;
-    background: url("zongzitang.jpg") no-repeat 35%;
+    background: url("pictures/zongzitang.jpg") no-repeat 35%;
   }
 
 
@@ -174,7 +187,7 @@ body{
 
 #wadisu:hover {
     cursor: pointer;
-    background: url("wadisu.jpg") no-repeat 25%;
+    background: url("pictures/wadisu.jpg") no-repeat 25%;
   }
 
 .center-block {
@@ -190,7 +203,7 @@ body{
 }
 .center-block:hover {
     cursor: pointer;
-    background: url("piangao.png") no-repeat 20%;
+    background: url("pictures/piangao.png") no-repeat 20%;
   }
 
 
@@ -264,7 +277,7 @@ body{
 }
 .lotus-root:hover{
         cursor: pointer;
-        background: url("tangou.jpg") no-repeat 35%;
+        background: url("pictures/tangou.jpg") no-repeat 35%;
       
 }
 
@@ -309,6 +322,7 @@ body{
 }
 
 .pictures:hover {
+    cursor: pointer;
     transform: translate(290px, -200px);
     -webkit-animation: size 2s ease-in-out infinite alternate; 
    }
@@ -356,7 +370,7 @@ body{
 
 .rice-cake:hover{
     cursor: pointer;
-    background: url("tangniangao.jpg") no-repeat 60% 10%;
+    background: url("pictures/tangniangao.jpg") no-repeat 60% 10%;
   
 }
 #flower{
