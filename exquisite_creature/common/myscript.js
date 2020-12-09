@@ -320,6 +320,7 @@ function flip4() {
     $('.card-4').toggleClass('flipped');
 }
 
+$(".finale").hide();
 
 var hasPressed = false;
 var hasPressed2 = false;
@@ -345,6 +346,16 @@ setInterval(function() {
   }
 }, 250);
 
-$("#description").click(function(){
-    alert("Answer the questions in the numeric order to create your unique creature. Screenshot and show it off to your friends!");
+setInterval(function() {
+    if (hasPressed === true && hasPressed2 === true && hasPressed3 == true && hasPressed4 == true) {
+      $('.finale').show();
+    }
   });
+
+$("#description").click(function(){
+    alert("Due to some unknown mistakes in the development of the bioengineering field, abnormal creatures started to appear in our world. The only way to fight them is to create your own creature. Use this website with precaution.");
+  });
+
+$('.finale').click(function() {
+    location.reload();
+});

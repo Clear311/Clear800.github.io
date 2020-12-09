@@ -525,4 +525,16 @@ p{
     justify-content: center; 
   }
 
- 
+ .finale {
+  z-index: 100;
+  font-family: 'IBM Plex Mono', monospace;    
+  font-size:15px;
+  padding: 10px;
+  text-decoration: none;
+  position: absolute;
+  left: 80px;
+  margin-top: 90px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 230); 
+  cursor: pointer;
+ }
