@@ -1,0 +1,43 @@
+body{
+    margin: 30px 50px 50px 50px;
+}
+
+h1{
+    font-family: 'Karla', sans-serif;   
+    color: rgb(182, 49, 187); 
+}
+
+h4{
+    font-family: 'Karla', sans-serif;   
+    color: rgb(182, 49, 187); 
+}
+
+h5{
+    font-family: 'Karla', sans-serif;
+    line-height: 26px;
+    font-size: 18px;
+}
+h2{
+    font-family: 'Karla', sans-serif;
+    color: rgb(182, 49, 187); 
+}
+
+p{
+    font-family: 'Karla', sans-serif;
+    font-size: 28px;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin:8px 0px 0px 0px;
+}
+p:hover{
+    font-family: 'Karla', sans-serif;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
