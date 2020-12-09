@@ -274,6 +274,7 @@ body{
     display: flex;
     margin-top: 50px;
     /* margin-left: 50px; */
+    position:absolute;
 }
 .lotus-root:hover{
         cursor: pointer;
@@ -285,7 +286,7 @@ body{
     margin-top: -175px;
     /* position:relative; */
     position: absolute;
-    margin-left:-370px;
+    margin-left:-360px;
     z-index: -1;
 }
 
